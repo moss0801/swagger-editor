@@ -1,0 +1,16 @@
+<!doctype html>
+<html ng-controller="baseController" ng-app="app">
+  <head>
+    <base href="/"></base>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="app/js/app.js"></script>
+    <script src="app/js/router.js"></script>
+    <script src="app/js/controllers/baseController.js"></script>
+  </head>
+  <body>
+    <div ui-sref="editor">State 1</div>
+    <div ui-sref="viewer">State 2</div>
+    <div ui-view></div>
+  </body>
+</html>
